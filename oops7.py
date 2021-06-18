@@ -15,5 +15,6 @@ t=Test()
 t.m1()
 Test.m2()
 Test.m3()
+Test.g=70
 print(Test.__dict__)
 
