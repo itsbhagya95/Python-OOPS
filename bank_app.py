@@ -17,7 +17,7 @@ name=input('Enter your name ')
 c=Customer(name)
 while True:
     print('d-Deposit\nw-Withdraw\ne-Exit')
-    option=input('Choose your option')
+    option=input('Choose your option ')
     if option.lower()=='d':
         amount=float(input('Enter amt to deposit '))
         c.deposit(amount)
