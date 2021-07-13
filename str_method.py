@@ -17,7 +17,7 @@ class Student:
         self.name=name
         self.rollno=rollno
         self.marks=marks
-    def __str__(self):
+    def __repr__(self):
         return 	'Name:{},Roll no:{},Marks:{}'.format(self.name,self.rollno,self.marks)
 s1=Student('Bhagya',101,95)
 s2=Student('MAdhu',102,50)

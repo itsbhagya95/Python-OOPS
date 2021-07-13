@@ -8,3 +8,5 @@ t1=Test() ##Adds a and b to the instance object
 t1.m1() ##Adds c to the instance object
 t1.d=40 ##Adds d to the instance object
 print(t1.__dict__)
+t2=Test()
+print(t2.__dict__)
